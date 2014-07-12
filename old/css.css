@@ -1,0 +1,155 @@
+/*body{
+	margin: 0;
+}
+
+#header {
+ 	color: white;
+ 	height: 150px;
+ 	width: 100%;
+ 	background: #003399;
+ 	top: 0;
+ 	left: 0;
+}
+
+#underbar {
+	background: #9999FF;
+	height: 10px;
+}
+
+#wrapper {
+	height: 600px;
+	width: 450px;
+	
+} 
+
+#footer {
+	background: #003399;
+	height: 50px;
+	clear: both;
+}
+
+#overbar {
+	background: #9999FF;
+	height: 5px;
+}
+
+#navbar {
+	float: left;
+	background: #555fff;
+	height: 600px;
+	width: 150px;
+	margin-left: 50px;
+}*/
+
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+}
+#wrapper { 
+ 	margin: 0 auto;
+ 	margin-top: 30px;
+ 	width: 922px;
+}
+#header {
+ 	color: white;
+ 	height: 40px;
+ 	background-image: url(image/bg.png);
+ 	background-repeat: repeat-x;
+ 	width: 100%;
+ 	top: 0;
+ 	left: 0;
+}
+#navigation {
+ float: left;
+ width: 900px;
+ height: 100px;
+ color: #333;
+ padding: 20px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border: 1px solid #fff;
+ margin: 0px 0px 0px 0px;
+ background-color: transparent;
+}
+#logo {
+	float: left;
+	width: 500px;
+	height: auto;
+	background: transparent;
+	/*margin-left: 100px;*/
+}
+
+#bloc2 {
+	margin-right: 48px;
+	background: transparent;
+}
+#social {
+	float: right;
+	margin-top: 22px;
+	margin-right: 10px;
+	width: auto;
+	height: auto;
+	background: transparent;
+}
+#leftcolumn { 
+ color: #333;
+ border: 1px solid #fff;
+ background:#fff;
+ margin: 0px 0px 0px 0px;
+ padding: 10px;
+ height: 700px;
+ width: 200px;
+ float: left;
+}
+#rightcolumn { 
+ float: right;
+ color: #333;
+ border: 1px solid #fff;
+ background:#fff;
+ margin: 0px 0px 0px 0px;
+ padding: 40px 0 0 0;
+ height: 700px;
+ width: 678px;
+ display: inline;
+}
+
+#footer { 
+ clear: both;
+ color: #333;
+ height: 55px;
+ margin: 0px 0px 10px 0px;
+ padding: 10px;
+ background-image: url(image/pagebottom.png);
+ background-repeat: repeat-x;
+}
+#navbar{
+	margin-top: 25px;
+	width: auto;
+	height: auto;
+	background-color: transparent;
+}
+.pulsante {
+	width: 100px;
+	margin-bottom: 5px;
+ 	outline: none;
+ 	cursor: pointer;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	font: bold 12px Arial, Helvetica, sans-serif;
+ 	color: #fff;
+ 	padding: 10px 20px;
+ 	border: solid 1px #0076a3;
+ 	background: #0095cd;
+ 	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+.pulsante:hover {
+ 	background: #558135;
+}
+h3 {
+	font: bold 20px Arial, Helvetica, sans-serif;
+	/*font-size: 2em;*/
+}
